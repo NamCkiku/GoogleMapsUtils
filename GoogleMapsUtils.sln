@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapsUtils.Android.Maui", "GoogleMapsUtils.Android.Maui\GoogleMapsUtils.Android.Maui.csproj", "{C795C832-8815-45B1-8989-8B71568986BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapsUtils.iOS.Maui", "GoogleMapsUtils.iOS.Maui\GoogleMapsUtils.iOS.Maui.csproj", "{BF0628C0-6DD9-4F15-8123-B2935850804C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapsUtils.Maui", "GoogleMapsUtils.Maui\GoogleMapsUtils.Maui.csproj", "{739F46BF-85E0-4FFD-84C6-0DDD80C723FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C795C832-8815-45B1-8989-8B71568986BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C795C832-8815-45B1-8989-8B71568986BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C795C832-8815-45B1-8989-8B71568986BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C795C832-8815-45B1-8989-8B71568986BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0628C0-6DD9-4F15-8123-B2935850804C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0628C0-6DD9-4F15-8123-B2935850804C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0628C0-6DD9-4F15-8123-B2935850804C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0628C0-6DD9-4F15-8123-B2935850804C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739F46BF-85E0-4FFD-84C6-0DDD80C723FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739F46BF-85E0-4FFD-84C6-0DDD80C723FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739F46BF-85E0-4FFD-84C6-0DDD80C723FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{739F46BF-85E0-4FFD-84C6-0DDD80C723FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739F46BF-85E0-4FFD-84C6-0DDD80C723FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739F46BF-85E0-4FFD-84C6-0DDD80C723FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AD65587-6A59-46EA-90D2-9AE634A39495}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseMaui>true</UseMaui>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Jars\android-maps-utils-2.4.0.aar" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Xamarin.GooglePlayServices.Maps" Version="118.1.0" />
+	</ItemGroup>
+</Project>
