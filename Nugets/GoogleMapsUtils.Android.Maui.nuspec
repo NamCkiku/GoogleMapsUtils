@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>GoogleMapsUtils.Android.Maui</id>
+    <version>1.0.0</version>
+    <title>GoogleMapsUtils.Android.Maui</title>
+    <authors>NamCkiku</authors>
+    <owners>NamCkiku</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <icon>icon.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/NamCkiku/Maui.Google.Maps.Utils</projectUrl>
+    <description>Set of Maui bindings of Google Maps Utility for Maui Android and Maui iOS</description>
+    <summary>Set of Maui bindings of Google Maps Utility for Maui Android and Maui iOS</summary>
+    <releaseNotes>Native Library version:
+[iOS] GoogleMapsUtils 4.1.0
+[Android] GoogleMapsUtils 2.4.0</releaseNotes>
+    <copyright>Copyright NamCkiku © 2022</copyright>
+    <language>vi-VN</language>
+    <tags>maui, ios, android, google, map, maps, utils, utility, heatmap, kml, geo, json, cluster, clustering, marker, pin, location</tags>
+    <repository type="git" url="https://github.com/NamCkiku/Maui.Google.Maps.Utils" />
+  </metadata>
+</package>
