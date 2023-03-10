@@ -69,14 +69,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="..\..\icon.png">
+		<None Include="..\icon.png">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Include="..\..\LICENSE">
+		<None Include="..\LICENSE">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
