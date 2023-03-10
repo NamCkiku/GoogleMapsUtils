@@ -17,7 +17,57 @@
 		<NoBindingEmbedding>false</NoBindingEmbedding>
 		<PackOnBuild>true</PackOnBuild>
 	</PropertyGroup>
-
+	<PropertyGroup>
+		<PackageId>GoogleMapsUtils.iOS.Maui</PackageId>
+		<Title>GoogleMapsUtils.iOS.Maui</Title>
+		<Summary>GoogleMapsUtils library for projects using .NET MAUI</Summary>
+		<Authors>NamCkiku</Authors>
+		<Owners>$(Authors)</Owners>
+		<Company>$(Authors)</Company>
+		<NeutralLanguage>vi-VN</NeutralLanguage>
+		<Product>GoogleMapsUtils.iOS.Maui ($(TargetFramework))</Product>
+		<Copyright>Copyright © $([System.DateTime]::Today.ToString(yyyy)) $(Authors)</Copyright>
+		<PackageDescription>$(Description)</PackageDescription>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageLicenseExpression></PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageProjectUrl>https://github.com/NamCkiku/GoogleMapsUtils</PackageProjectUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>git://github.com/NamCkiku/GoogleMapsUtils</RepositoryUrl>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<DefineConstants>$(DefineConstants);</DefineConstants>
+		<UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+		<Description>
+			$(Summary)
+			Set of Maui bindings of Google Maps Utility for Maui Android and Maui iOS - $(PackageId)
+		</Description>
+		<PackageReleaseNotes>
+			Native Library version:
+			[iOS] GoogleMapsUtils 4.1.0
+			[Android] GoogleMapsUtils 2.4.0
+			Code improvements have been made.
+			Changes are detailed at https://github.com/NamCkiku/GoogleMapsUtils/releases
+		</PackageReleaseNotes>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+		<PackageIcon>icon.png</PackageIcon>
+		<Product>$(AssemblyName) ($(TargetFramework))</Product>
+		<FileVersion>$(Version)</FileVersion>
+		<AssemblyVersion>$(Version)</AssemblyVersion>
+		<AssemblyFileVersion>$(Version)</AssemblyFileVersion>
+		<Version>$([System.DateTime]::Today.ToString(yy)).$([System.DateTime]::Today.ToString(MM)).$([System.DateTime]::Today.ToString(dd)).$([System.DateTime]::Now.ToString(HH))$([System.DateTime]::Now.ToString(mm))</Version>
+		<VersionPrefix></VersionPrefix>
+		<VersionSuffix></VersionSuffix>
+		<PackageVersion>$(VersionPrefix)$(Version)$(VersionSuffix)</PackageVersion>
+		<PackageTags>maui, ios, android, google, map, maps, utils, utility, heatmap, kml, geo, json, cluster, clustering, marker, pin, location</PackageTags>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<Configurations>Debug;Release</Configurations>
+		<NoWarn>1587,1591</NoWarn>
+		<Copyright>Copyright NamCkiku © 2022</Copyright>
+	</PropertyGroup>
 	<ItemGroup>
 		<ObjcBindingApiDefinition Include="ApiDefinition.cs" />
 		<ObjcBindingCoreSource Include="StructsAndEnums.cs" />

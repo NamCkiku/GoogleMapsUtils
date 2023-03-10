@@ -10,7 +10,7 @@
     <license type="file">LICENSE</license>
     <icon>icon.png</icon>
     <readme>README.md</readme>
-    <projectUrl>https://github.com/NamCkiku/Maui.Google.Maps.Utils</projectUrl>
+    <projectUrl>https://github.com/NamCkiku/GoogleMapsUtils</projectUrl>
     <description>Set of Maui bindings of Google Maps Utility for Maui Android and Maui iOS</description>
     <summary>Set of Maui bindings of Google Maps Utility for Maui Android and Maui iOS</summary>
     <releaseNotes>Native Library version:
@@ -19,6 +19,6 @@
     <copyright>Copyright NamCkiku © 2022</copyright>
     <language>vi-VN</language>
     <tags>maui, ios, android, google, map, maps, utils, utility, heatmap, kml, geo, json, cluster, clustering, marker, pin, location</tags>
-    <repository type="git" url="https://github.com/NamCkiku/Maui.Google.Maps.Utils" />
+    <repository type="git" url="https://github.com/NamCkiku/GoogleMapsUtils" />
   </metadata>
 </package>
