@@ -2,12 +2,20 @@
 	<PropertyGroup>
 		<TargetFramework>net7.0-ios</TargetFramework>
 		<UseMaui>true</UseMaui>
-		<IsBindingProject>true</IsBindingProject>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>true</ImplicitUsings>
-		<DebugType>full</DebugType>
+		<IsBindingProject>true</IsBindingProject>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-		<MtouchLink>SdkOnly</MtouchLink>
+		<MtouchArch>i386 + x86_64</MtouchArch>
+		<Configurations>Debug;Release</Configurations>
+		<DebugType>full</DebugType>
+		<Optimize>true</Optimize>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+		<ConsolePause>false</ConsolePause>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<NoBindingEmbedding>false</NoBindingEmbedding>
+		<PackOnBuild>true</PackOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>
