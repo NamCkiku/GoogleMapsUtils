@@ -1,4 +1,4 @@
-![Logo](.icon.png)
+![Logo](icon.png)
 
 ![Dot-Net-Version](https://img.shields.io/badge/.NET-7.0-blue)
 ![C-Sharp-Version](https://img.shields.io/badge/C%23-Preview-blue.svg)
