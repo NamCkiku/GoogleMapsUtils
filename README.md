@@ -3,8 +3,6 @@
 ![Dot-Net-Version](https://img.shields.io/badge/.NET-7.0-blue)
 ![C-Sharp-Version](https://img.shields.io/badge/C%23-Preview-blue.svg)
 ![IDE-Version](https://img.shields.io/badge/IDE-VS2022-blue.svg)
-[![NuGet-Version](Android)](https://https://www.nuget.org/packages/GoogleMapsUtils.Maui.Android/)
-![NuGet-Version](iOS)](https://https://www.nuget.org/packages/GoogleMapsUtils.Maui.iOS/)
 
 # Welcome to GoogleMapsUtils.Maui
 Latest Google Maps Utils SDKs bindings for iOS (4.1.0) and Android (2.3.0)
