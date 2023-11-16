@@ -48,7 +48,6 @@ namespace Google.Maps.Utils
 
     public interface ICluster
     {
-
     }
 
     [Protocol, Model]
@@ -107,7 +106,6 @@ namespace Google.Maps.Utils
 
     public interface IClusterRenderer
     {
-
     }
 
     // @protocol GMUClusterManagerDelegate <NSObject>
@@ -126,7 +124,6 @@ namespace Google.Maps.Utils
 
     public interface IClusterManagerDelegate
     {
-
     }
 
     // @interface GMUClusterManager : NSObject
@@ -368,7 +365,6 @@ namespace Google.Maps.Utils
 
     public interface IGeometryContainer
     {
-
     }
 
     // @interface GMUFeature : NSObject <GMUGeometryContainer>
@@ -680,11 +676,11 @@ namespace Google.Maps.Utils
 
         // @property (readonly, nonatomic) int * _Nonnull path;
         [Export("path")]
-        unsafe Path Path { get; }
+        unsafe Google.Maps.Path Path { get; }
 
         // -(instancetype _Nonnull)initWithPath:(id)path;
         [Export("initWithPath:")]
-        IntPtr Constructor(Path path);
+        IntPtr Constructor(Google.Maps.Path path);
     }
 
     // @interface GMUNonHierarchicalDistanceBasedAlgorithm : NSObject <GMUClusterAlgorithm>
@@ -770,11 +766,11 @@ namespace Google.Maps.Utils
 
         // @property (readonly, nonatomic) NSArray * _Nonnull paths;
         [Export("paths")]
-        Path[] Paths { get; }
+        Google.Maps.Path[] Paths { get; }
 
         // -(instancetype _Nonnull)initWithPaths:(NSArray * _Nonnull)paths;
         [Export("initWithPaths:")]
-        IntPtr Constructor(Path[] paths);
+        IntPtr Constructor(Google.Maps.Path[] paths);
     }
 
     // @interface GMUSimpleClusterAlgorithm : NSObject <GMUClusterAlgorithm>

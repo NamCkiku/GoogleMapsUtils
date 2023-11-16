@@ -1,20 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>net7.0-ios</TargetFramework>
-		<UseMaui>true</UseMaui>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>true</ImplicitUsings>
 		<IsBindingProject>true</IsBindingProject>
-		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-		<MtouchArch>i386 + x86_64</MtouchArch>
-		<Configurations>Debug;Release</Configurations>
-		<DebugType>full</DebugType>
-		<Optimize>true</Optimize>
-		<ErrorReport>prompt</ErrorReport>
-		<WarningLevel>4</WarningLevel>
-		<ConsolePause>false</ConsolePause>
-		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-		<NoBindingEmbedding>false</NoBindingEmbedding>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">12.0</SupportedOSPlatformVersion>
 		<PackOnBuild>true</PackOnBuild>
 	</PropertyGroup>
 	<PropertyGroup>
