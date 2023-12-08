@@ -13,6 +13,10 @@
 		<WarningLevel>4</WarningLevel>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<NoBindingEmbedding>false</NoBindingEmbedding>
+		<NoWarn>8767, 1591</NoWarn>
+		<RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+		<IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+		<OutputType>Library</OutputType>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -30,6 +34,7 @@
 			<Kind>Framework</Kind>
 			<SmartLink>True</SmartLink>
 			<ForceLoad>False</ForceLoad>
+			<LinkerFlags>-ObjC</LinkerFlags>
 		</NativeReference>
 	</ItemGroup>
 
